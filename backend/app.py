@@ -6,7 +6,7 @@ import numpy as np
 import requests
 
 # Load trained model
-model = joblib.load(r"C:\Users\royso\OneDrive\Documents\Infra AI\infrastructure_model.pkl")
+model = joblib.load("Model Path")
 
 app = FastAPI()
 
